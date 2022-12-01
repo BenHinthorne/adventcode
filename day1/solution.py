@@ -24,13 +24,6 @@ def replace(top, e):
         list.append(top, e)
     return top
 
-def smallest(top):
-    smallest = top[0]
-    for t in top:
-        if t < smallest:
-            smallest = t
-    return smallest
-        
 
 
 def main():
