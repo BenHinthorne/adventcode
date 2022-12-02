@@ -1,11 +1,5 @@
-import math
+## day 2 
 
-game_map = {
-    "A": "rock",
-    "B": "paper",
-    "C": "scissors",
-    "X": "roc"
-}
 points_map = {
     "AX": 4, # Draw + Rock
     "BX": 1, # Loss + Rock
